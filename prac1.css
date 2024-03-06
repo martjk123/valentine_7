@@ -1,0 +1,46 @@
+.container1{
+    display:flex;
+    justify-content:center;
+    
+}
+
+#will{
+    margin-right:5px;
+}
+
+.container2{
+    display:flex;
+    justify-content:center;
+}
+
+.maindiv{
+    margin-top:50px;
+}
+
+.buttons{
+    margin-top:10px;
+    display:flex;
+    justify-content:center;
+}
+
+#yes{
+margin-right:10px;
+}
+
+#no{
+
+}
+
+body{
+    background-color:pink;
+    animation-name:body;
+    animation-duration:5s;
+    animation-iteration-count:infinite;
+    animation-direction:alternate;
+}
+
+@keyframes body{
+    0%{background-color:rgb(247, 101, 101)}
+    50%{background-color:rgb(234, 121, 200)}
+    80%{background-color:lightcoral}
+}
